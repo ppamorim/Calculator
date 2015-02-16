@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="white">#FFFFFF</color>
+  <color name="black">#000000</color>
+  <color name="actionbar">#4CAF50</color>
+  <color name="menu_not_selected">#A5D6A7</color>
+</resources>

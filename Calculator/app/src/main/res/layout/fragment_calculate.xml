@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <com.ppamorim.calculator.core.view.FloatingEditText
+      android:id="@+id/edittext_one"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:hint="@string/checked_value"
+      android:digits="0123456789"
+      widget:floating_edit_text_highlighted_color="@color/actionbar"
+      android:inputType="number|textVisiblePassword"
+      style="@style/edit_text_calculate"/>
+
+  <com.ppamorim.calculator.core.view.FloatingEditText
+      android:id="@+id/edittext_two"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"
+      android:hint="@string/count_value"
+      android:digits="0123456789"
+      android:inputType="number|textVisiblePassword"
+      widget:floating_edit_text_highlighted_color="@color/actionbar"
+      style="@style/edit_text_calculate"/>
+
+  <include layout="@layout/layout_calculate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+</LinearLayout>

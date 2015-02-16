@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <com.ppamorim.calculator.core.view.PaperButton
+      android:id="@+id/calculate"
+      android:layout_width="160dp"
+      android:layout_height="54dp"
+      android:layout_gravity="center_horizontal"
+      widget:paper_text_color="@color/white"
+      widget:paper_color="@color/actionbar"
+      widget:paper_text="@string/calculate"/>
+
+  <TextView
+      android:id="@+id/text_result"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_horizontal"
+      android:padding="16dp"
+      android:textSize="14sp"
+      android:textColor="@color/actionbar"
+      android:text="@string/result"/>
+
+  <com.ppamorim.calculator.core.view.FloatingEditText
+      android:id="@+id/edittext_result"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="none"
+      android:focusable="false"
+      widget:floating_edit_text_highlighted_color="@color/actionbar"
+      style="@style/edit_text_calculate"/>
+
+</LinearLayout>

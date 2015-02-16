@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">Calculator</string>
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+
+  <!-- ANDROID SARIPAAR -->
+  <string name="empty_field">Esse campo não pode estar vazio</string>
+
+  <!-- SLIDING MENU TITLES -->
+  <string name="calculate">CALCULAR</string>
+  <string name="history">HISTÓRICO</string>
+
+  <!-- CALCULATE SCREEN -->
+  <string name="result">Resultado:</string>
+  <string name="checked_value">Valor verificado</string>
+  <string name="count_value">Quantidade</string>
+  <string name="save">SALVAR</string>
+
+  <!-- HISTORY SCREEN -->
+  <string name="calculate_medium">CALCULAR MÉDIA</string>
+
+  <!-- ADAPTER UNDO -->
+  <string name="item_deleted">Deseja deletar?</string>
+  <string name="taptoundo">Clique para restaurar</string>
+
+</resources>
